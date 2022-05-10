@@ -5,7 +5,6 @@ To do this run sql file 'DataStream_MasterData_Creator v1.sql'.
 Step 1: Create a star-schema designed data warehouse into the database
 1) Open SQL Developer and connect to Oracle SQL.
 2) Run the sql file 'createDW.sql' to create six tables including one fact table (sales) and five dimension tables (customer, product, warehouse, supplier and dates).
-	*The star-schema has changed from assignment 1*
 3) The script should also drop any pre-existing tables with the same names and replace with the new tables that are blank.
 
 You should now have 6 tables
